@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.img{
+    background: url('car-bg.jpg') no-repeat;
+    background-position: center center;
+     
+    background-size: cover;
+    min-height: 132vh;
+    color: white;
+    display: flex;
+    
+}
+
+header{
+    align-items: flex-start;
+}
+
+.container{
+    max-width: 100%;
+    width: 900px;
+    margin: 0 auto;
+}
+
+nav{
+   display: flex;
+   justify-content: space-between;
+   padding: 1rem;
+}
+
+nav .logo{
+   font-size: 2rem;;
+}
+
+nav ul{
+    display: flex;
+    list-style-type:none;
+    padding: 0;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.highlight{
+    background-color: #00c2ff;
+}
+
+.selected{
+    font-weight: bold;
+}
+
+header .content{
+    margin: auto;
+}
